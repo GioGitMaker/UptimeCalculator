@@ -1,8 +1,10 @@
+import at.gio.MessageController;
 import at.gio.UptimeController;
 import org.junit.jupiter.api.Assertions;
 import org.junit.Test;
 
 public class UptimeControllerTest {
+
     @Test
     public void test_calculateUptime_shouldBeCalculatedCorrectly(){
 
